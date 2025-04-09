@@ -1,5 +1,5 @@
-<?php include 'config.php'; ?>
-<?php
+<?php 
+include 'config.php'; 
 $id = $_GET['id'];
 $data = $conn->query("SELECT * FROM karyawan WHERE id=$id")->fetch_assoc();
 
