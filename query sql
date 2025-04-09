@@ -1,0 +1,14 @@
+//memasukan query sql ke phpMyAdmin di browser
+CREATE DATABASE crud_karyawan;
+USE crud_karyawan;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+//dengan password hash
+INSERT INTO users (username, password) 
+VALUES ('admin', '$2y$10$zmDjyrtfv.r9WJxfGZMCAe6.PrKvbed2.3gE0fBaDaHZIDrsgtuUG');
