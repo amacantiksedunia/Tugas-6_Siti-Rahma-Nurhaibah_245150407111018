@@ -7,7 +7,7 @@ if (!isset($_SESSION['status_login']) || $_SESSION['status_login'] !== true) {
 }
 
 
-// Gunakan variabel $koneksi secara konsisten di semua file
+//koneksi ke database sql
 $koneksi = new mysqli("localhost", "root", "", "karyawan_db");
 
 if ($koneksi->connect_error) {
