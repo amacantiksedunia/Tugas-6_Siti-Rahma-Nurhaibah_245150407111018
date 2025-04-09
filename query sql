@@ -11,4 +11,4 @@ CREATE TABLE users (
 
 //dengan password hash
 INSERT INTO users (username, password) 
-VALUES ('admin', '$2y$10$zmDjyrtfv.r9WJxfGZMCAe6.PrKvbed2.3gE0fBaDaHZIDrsgtuUG');
+VALUES ('rahma', '$2y$10$zmDjyrtfv.r9WJxfGZMCAe6.PrKvbed2.3gE0fBaDaHZIDrsgtuUG');
