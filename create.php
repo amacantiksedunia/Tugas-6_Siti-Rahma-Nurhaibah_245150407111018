@@ -1,5 +1,6 @@
-<?php include 'config.php'; ?>
-<?php
+<?php 
+include 'config.php'; 
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $nama = $_POST["nama"];
   $jabatan = $_POST["jabatan"];
@@ -19,6 +20,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body class="bg-light">
   <div class="container mt-5">
     <h2>Tambah Data Karyawan</h2>
+    
+    <!-- untuk menambah data karyawan -->
     <form method="post">
       <div class="mb-3">
         <label>Nama:</label>
