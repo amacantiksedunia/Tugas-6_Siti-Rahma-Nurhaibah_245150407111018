@@ -1,0 +1,102 @@
+body {
+    background-color: #f8f9fa;
+}
+.sidebar {
+    height: 100vh;
+    background-color: #343a40;
+    color: white;
+}
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+}
+.sidebar a:hover {
+    background-color: #495057;
+}
+.form-control, .btn {
+    border-radius: 10px;
+}
+.card {
+    border-radius: 15px;
+}
+.stat-card {
+    border-radius: 10px;
+    transition: transform 0.3s;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.nav-link {
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: all 0.3s;
+}
+
+.nav-link.active {
+    background-color: #495057 !important;
+}
+
+.nav-link:hover:not(.active) {
+    background-color: rgba(255,255,255,0.1);
+}
+
+.bi {
+    font-size: 1.1rem;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table thead th {
+    border-bottom: 2px solid #dee2e6;
+}
+/* ===== Ikon Bootstrap ===== */
+.bi {
+    font-size: 1.1rem;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/* Ikon di tombol */
+.btn .bi {
+    font-size: 0.9rem;
+    margin-right: 5px;
+}
+
+/* Ikon di sidebar */
+.sidebar .bi {
+    width: 20px;
+    text-align: center;
+}
+
+/* Ikon di tabel */
+.table .bi {
+    font-size: 1rem;
+    margin-right: 3px;
+}
+
+/* Warna ikon khusus */
+.icon-primary {
+    color: #0d6efd;
+}
+.icon-success {
+    color: #198754;
+}
+.icon-danger {
+    color: #dc3545;
+}
+.icon-warning {
+    color: #ffc107;
+}
