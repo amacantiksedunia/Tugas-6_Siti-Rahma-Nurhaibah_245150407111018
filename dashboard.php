@@ -8,7 +8,7 @@ if (!isset($_SESSION['username'])) {
     exit();
 }
 
-// Redirect ke login hanya jika BELUM login
+// Redirect ke login hanya jika belum login
 if (!isset($_SESSION['status_login']) || $_SESSION['status_login'] !== true) {
     header("Location: login.php");
     exit;
@@ -49,7 +49,7 @@ if (!isset($_SESSION['status_login']) || $_SESSION['status_login'] !== true) {
                         </div>
                     </div>
                 </div>
-                <!-- Tambahkan card statistik lainnya -->
+                <!-- untuk card statistik lainnya -->
             </div>
             
             <!-- Grafik -->
