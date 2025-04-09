@@ -1,9 +1,9 @@
 <?php
 ob_start();
 error_reporting(E_ALL);
-ini_set('display_errors', 1);
+ini_set('display_errors', 1); 
 
-// Gunakan variabel $koneksi secara konsisten di semua file
+// koneksi ke sql
 $koneksi = new mysqli("localhost", "root", "", "karyawan_db");
 
 if ($koneksi->connect_error) {
